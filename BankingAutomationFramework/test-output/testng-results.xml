@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-09T01:49:14 IST" name="Default suite" finished-at="2026-06-09T01:50:07 IST" duration-ms="53439">
+    <groups>
+    </groups>
+    <test started-at="2026-06-09T01:49:14 IST" name="Default test" finished-at="2026-06-09T01:50:07 IST" duration-ms="53439">
+      <class name="testcases.guru99.BankingWorkflowTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.guru99.BankingWorkflowTest@3c46e67a]" started-at="2026-06-09T01:49:14 IST" name="setup" finished-at="2026-06-09T01:49:21 IST" duration-ms="6622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="completeBankingWorkflow()[pri:0, instance:testcases.guru99.BankingWorkflowTest@3c46e67a]" started-at="2026-06-09T01:49:21 IST" name="completeBankingWorkflow" finished-at="2026-06-09T01:50:05 IST" duration-ms="44300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeBankingWorkflow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.guru99.BankingWorkflowTest@3c46e67a]" started-at="2026-06-09T01:50:05 IST" name="tearDown" finished-at="2026-06-09T01:50:07 IST" duration-ms="2281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.guru99.BankingWorkflowTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

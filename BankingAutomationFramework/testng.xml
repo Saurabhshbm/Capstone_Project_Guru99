@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="BankingSuite">
+
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+
+    <test name="FrameworkValidation">
+
+        <classes>
+
+          <!--  <class name="testcases.guru99.LoginTest"/>
+           
+           <class name="testcases.guru99.CustomerTest"/>  -->
+           
+            <class name="testcases.guru99.BankingWorkflowTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
