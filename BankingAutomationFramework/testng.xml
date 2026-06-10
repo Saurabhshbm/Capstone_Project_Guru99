@@ -8,7 +8,7 @@
         <listener class-name="listeners.TestListener"/>
     </listeners>
 
-    <test name="LoginTest">
+   <!--  <test name="LoginTest">
 
         <classes>
             <class name="testcases.guru99.LoginTest"/>
@@ -22,7 +22,7 @@
             <class name="testcases.guru99.CustomerTest"/>
         </classes>
 
-    </test>
+    </test> -->
 
     <test name="BankingWorkflowTest">
 

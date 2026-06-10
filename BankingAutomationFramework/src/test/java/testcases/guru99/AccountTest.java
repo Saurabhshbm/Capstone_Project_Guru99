@@ -49,10 +49,15 @@ public class AccountTest extends BaseTest {
 
         String customerId =
                 customerSuccessPage.getCustomerId();
+        
+        System.out.println(
+        	    "Customer ID From Context = "
+        	    + TestContext.getCustomerId());
 
         homePage =
                 new HomePage(
                         DriverManager.getDriver());
+        
 
         homePage.clickNewAccount();
 

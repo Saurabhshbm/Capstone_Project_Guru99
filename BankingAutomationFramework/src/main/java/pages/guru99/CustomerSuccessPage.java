@@ -29,8 +29,11 @@ public class CustomerSuccessPage extends BasePage {
                                         By.xpath(
                                                 "//td[text()='Customer ID']/following-sibling::td")));
 
-        String customerId =
-                customerElement.getText();
+        String customerId = customerElement.getText();
+
+        System.out.println(
+            "Retrieved Customer ID = "
+            + customerId);
 
         TestContext.setCustomerId(customerId);
 
