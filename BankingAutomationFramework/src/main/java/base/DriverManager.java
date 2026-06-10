@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
+import org.openqa.selenium.chrome.ChromeOptions;
 public class DriverManager {
 
     private static final ThreadLocal<WebDriver> driver =
@@ -15,10 +15,18 @@ public class DriverManager {
 
         switch (browser.toLowerCase()) {
 
-            case "chrome":
-                WebDriverManager.chromedriver().setup();
-                driver.set(new ChromeDriver());
-                break;
+        case "chrome":
+
+        	ChromeOptions options = new ChromeOptions();
+
+        	options.addArguments("--headless=new");
+        	options.addArguments("--no-sandbox");
+        	options.addArguments("--disable-dev-shm-usage");
+        	options.addArguments("--disable-gpu");
+
+        	driver.set(new ChromeDriver(options));
+
+            break;
 
             case "edge":
                 WebDriverManager.edgedriver().setup();

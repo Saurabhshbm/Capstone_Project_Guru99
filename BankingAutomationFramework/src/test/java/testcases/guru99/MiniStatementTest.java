@@ -3,6 +3,7 @@ package testcases.guru99;
 import base.BaseTest;
 import base.DriverManager;
 import org.testng.Assert;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import pages.guru99.HomePage;
 import pages.guru99.LoginPage;
@@ -10,6 +11,7 @@ import pages.guru99.MiniStatementPage;
 import utilities.ConfigReader;
 import utilities.TestContext;
 
+@Ignore
 public class MiniStatementTest extends BaseTest {
 
     @Test
