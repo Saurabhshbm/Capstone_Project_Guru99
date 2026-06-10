@@ -7,6 +7,11 @@ import org.testng.annotations.Test;
 import pages.guru99.*;
 import utilities.ConfigReader;
 import utilities.RandomDataGenerator;
+import org.testng.annotations.Listeners;
+import listeners.TestListener;
+
+@Listeners(TestListener.class)
+
 
 public class BankingWorkflowTest extends BaseTest {
 
@@ -212,6 +217,8 @@ public class BankingWorkflowTest extends BaseTest {
                     "Deposit Failed : "
                             + e.getMessage());
         }
+        
+        
 
         System.out.println(
                 "Navigating back to Home Page");

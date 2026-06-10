@@ -8,19 +8,17 @@ import java.io.FileInputStream;
 public class ExcelUtils {
 
     private static Workbook workbook;
-    private static Sheet sheet;
 
-    public static void loadExcel(String sheetName) {
+    static {
 
         try {
 
             FileInputStream fis =
                     new FileInputStream(
-                            "src/test/resources/testdata/BankingData.xlsx");
+                            "src/test/resources/testdata/TestData.xlsx");
 
-            workbook = new XSSFWorkbook(fis);
-
-            sheet = workbook.getSheet(sheetName);
+            workbook =
+                    new XSSFWorkbook(fis);
 
         } catch (Exception e) {
 
@@ -29,17 +27,22 @@ public class ExcelUtils {
     }
 
     public static String getCellData(
-            int rowNumber,
-            int columnNumber) {
+            String sheetName,
+            int row,
+            int column) {
 
-        return sheet
-                .getRow(rowNumber)
-                .getCell(columnNumber)
+        Sheet sheet =
+                workbook.getSheet(sheetName);
+
+        return sheet.getRow(row)
+                .getCell(column)
                 .toString();
     }
 
-    public static int getRowCount() {
+    public static int getRowCount(
+            String sheetName) {
 
-        return sheet.getLastRowNum();
+        return workbook.getSheet(sheetName)
+                .getLastRowNum();
     }
 }

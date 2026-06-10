@@ -31,12 +31,20 @@ public class TestListener implements ITestListener {
     }
 
     @Override
+    
     public void onTestFailure(
             ITestResult result) {
+
+        System.out.println(
+                "Failure Listener Triggered");
 
         String screenshotPath =
                 ScreenshotUtils.capture(
                         result.getMethod().getMethodName());
+
+        System.out.println(
+                "Screenshot Path = "
+                        + screenshotPath);
 
         test.get().fail(result.getThrowable());
 

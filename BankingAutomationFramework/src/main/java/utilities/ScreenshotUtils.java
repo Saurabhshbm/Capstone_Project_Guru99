@@ -24,22 +24,41 @@ public class ScreenshotUtils {
                             "yyyyMMddHHmmss")
                             .format(new Date());
 
+            String folderPath = "screenshots";
+
+            File folder = new File(folderPath);
+
+            if (!folder.exists()) {
+
+                folder.mkdirs();
+            }
+
             String destination =
-                    "screenshots/"
-                            + testName
-                            + "_"
-                            + timestamp
-                            + ".png";
+                    new File(
+                            folderPath,
+                            testName + "_"
+                                    + timestamp
+                                    + ".png")
+                            .getAbsolutePath();
 
             FileUtils.copyFile(
                     source,
                     new File(destination));
+            
+            System.out.println(
+                    "Screenshot Saved At : "
+                            + destination);
 
             return destination;
 
         } catch (Exception e) {
+        	
+        	e.printStackTrace();
+        	
+        	
 
-            throw new RuntimeException(e);
+            //throw new RuntimeException(e);
         }
+		return testName;
     }
 }

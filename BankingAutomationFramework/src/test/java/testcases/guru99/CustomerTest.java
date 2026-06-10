@@ -9,13 +9,26 @@ import pages.guru99.CustomerSuccessPage;
 import pages.guru99.HomePage;
 import pages.guru99.LoginPage;
 import utilities.ConfigReader;
+import utilities.ExcelUtils;
 import utilities.RandomDataGenerator;
 import utilities.TestContext;
+import utilities.TestDataProvider;
 
 public class CustomerTest extends BaseTest {
 
-    @Test
-    public void verifyCustomerCreation() {
+    @Test(
+            dataProvider = "customerData",
+            dataProviderClass =
+                    TestDataProvider.class)
+    public void verifyCustomerCreation(
+
+            String customerName,
+            String dob,
+            String address,
+            String city,
+            String state,
+            String pin,
+            String password) {
 
         LoginPage loginPage =
                 new LoginPage(
@@ -36,15 +49,15 @@ public class CustomerTest extends BaseTest {
                         DriverManager.getDriver());
 
         customerPage.createCustomer(
-                "Saurabh Kumar",
-                "1998-01-01",
-                "Ranchi",
-                "Ranchi",
-                "Jharkhand",
-                "834001",
+                customerName,
+                dob,
+                address,
+                city,
+                state,
+                pin,
                 RandomDataGenerator.generateMobile(),
                 RandomDataGenerator.generateEmail(),
-                "Test@123");
+                password);
 
         CustomerSuccessPage successPage =
                 new CustomerSuccessPage(
@@ -56,11 +69,7 @@ public class CustomerTest extends BaseTest {
         Assert.assertNotNull(customerId);
 
         System.out.println(
-                "Generated Customer ID : "
+                "Customer Created : "
                         + customerId);
-
-        System.out.println(
-                "Stored Customer ID : "
-                        + TestContext.getCustomerId());
     }
 }
