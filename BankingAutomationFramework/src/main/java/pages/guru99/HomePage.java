@@ -85,35 +85,44 @@ public class HomePage extends BasePage {
         js.executeScript(
                 "arguments[0].click();",
                 newAccountMenu);
-    }  
-
-    public void clickDeposit() {
-        depositMenu.click();
     }
+    
+    public void clickFundTransfer() {
+
+        WebDriverWait wait =
+                new WebDriverWait(
+                        driver,
+                        Duration.ofSeconds(10));
+
+        wait.until(
+                ExpectedConditions.visibilityOf(
+                        fundTransferMenu));
+
+        JavascriptExecutor js =
+                (JavascriptExecutor) driver;
+
+        js.executeScript(
+                "arguments[0].scrollIntoView(true);",
+                fundTransferMenu);
+
+        js.executeScript(
+                "arguments[0].click();",
+                fundTransferMenu);
+    }
+
+   
 
     public void clickWithdrawal() {
         withdrawalMenu.click();
     }
 
-    public void clickFundTransfer() {
-        fundTransferMenu.click();
+    
+    
+    public void clickDeposit() {
+        depositMenu.click();
     }
 
-    public void clickChangePassword() {
-        changePasswordMenu.click();
-    }
-
-    public void clickBalanceEnquiry() {
-        balanceEnquiryMenu.click();
-    }
-
-    public void clickMiniStatement() {
-        miniStatementMenu.click();
-    }
-
-    public void clickCustomisedStatement() {
-        customisedStatementMenu.click();
-    }
+    
 
     public void logout() {
         logoutMenu.click();
