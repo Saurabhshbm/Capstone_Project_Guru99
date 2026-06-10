@@ -1,21 +1,33 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="BankingSuite">
+<suite name="BankingSuite"
+       parallel="tests"
+       thread-count="2">
 
     <listeners>
         <listener class-name="listeners.TestListener"/>
     </listeners>
 
-    <test name="FrameworkValidation">
+    <test name="LoginTest">
 
         <classes>
+            <class name="testcases.guru99.LoginTest"/>
+        </classes>
 
-          <!--  <class name="testcases.guru99.LoginTest"/>
-           
-           <class name="testcases.guru99.CustomerTest"/>  -->
-           
+    </test>
+
+    <test name="CustomerTest">
+
+        <classes>
+            <class name="testcases.guru99.CustomerTest"/>
+        </classes>
+
+    </test>
+
+    <test name="BankingWorkflowTest">
+
+        <classes>
             <class name="testcases.guru99.BankingWorkflowTest"/>
-
         </classes>
 
     </test>
