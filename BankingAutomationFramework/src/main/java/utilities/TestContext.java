@@ -2,10 +2,10 @@ package utilities;
 
 public class TestContext {
 
-    private static final ThreadLocal<String> customerId =
+    private static ThreadLocal<String> customerId =
             new ThreadLocal<>();
 
-    private static final ThreadLocal<String> accountId =
+    private static ThreadLocal<String> accountId =
             new ThreadLocal<>();
 
     public static String getCustomerId() {

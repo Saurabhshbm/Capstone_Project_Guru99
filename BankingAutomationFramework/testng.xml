@@ -2,7 +2,7 @@
 
 <suite name="BankingSuite"
        parallel="tests"
-       thread-count="2">
+       thread-count="1">
 
     <listeners>
         <listener class-name="listeners.TestListener"/>
