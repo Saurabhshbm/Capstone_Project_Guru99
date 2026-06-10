@@ -3,11 +3,16 @@ package pages.guru99;
 import base.BasePage;
 import utilities.WaitUtils;
 
+import java.time.Duration;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage extends BasePage {
 
@@ -64,8 +69,23 @@ public class HomePage extends BasePage {
     }
 
     public void clickNewAccount() {
-        newAccountMenu.click();
-    }
+
+        WebDriverWait wait =
+                new WebDriverWait(
+                        driver,
+                        Duration.ofSeconds(10));
+
+        wait.until(
+                ExpectedConditions.elementToBeClickable(
+                        newAccountMenu));
+
+        JavascriptExecutor js =
+                (JavascriptExecutor) driver;
+
+        js.executeScript(
+                "arguments[0].click();",
+                newAccountMenu);
+    }  
 
     public void clickDeposit() {
         depositMenu.click();

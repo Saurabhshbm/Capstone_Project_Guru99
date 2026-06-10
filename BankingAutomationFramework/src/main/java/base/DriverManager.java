@@ -17,17 +17,23 @@ public class DriverManager {
 
         case "chrome":
 
-        	ChromeOptions options = new ChromeOptions();
+            ChromeOptions options =
+                    new ChromeOptions();
 
-        	options.addArguments("--headless=new");
-        	options.addArguments("--no-sandbox");
-        	options.addArguments("--disable-dev-shm-usage");
-        	options.addArguments("--disable-gpu");
+            if(System.getProperty("os.name")
+                    .toLowerCase()
+                    .contains("linux")) {
 
-        	driver.set(new ChromeDriver(options));
+                options.addArguments("--headless=new");
+                options.addArguments("--no-sandbox");
+                options.addArguments("--disable-dev-shm-usage");
+                options.addArguments("--disable-gpu");
+                options.addArguments("--window-size=1920,1080");
+            }
 
+            driver.set(new ChromeDriver(options));
             break;
-
+            
             case "edge":
                 WebDriverManager.edgedriver().setup();
                 driver.set(new EdgeDriver());

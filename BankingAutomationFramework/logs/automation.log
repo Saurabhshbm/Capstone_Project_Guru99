@@ -567,3 +567,136 @@
 2026-06-10 19:23:00,482 INFO  pages.guru99.FundTransferPage - Performing Fund Transfer
 2026-06-10 19:23:02,024 INFO  pages.guru99.WithdrawalPage - Performing Withdrawal
 2026-06-10 19:23:04,578 INFO  pages.guru99.DepositPage - Performing Deposit
+2026-06-10 21:37:20,512 INFO  pages.guru99.LoginPage - Starting Login Process
+2026-06-10 21:37:20,515 INFO  pages.guru99.LoginPage - Entering User ID
+2026-06-10 21:37:20,726 INFO  pages.guru99.LoginPage - Entering Password
+2026-06-10 21:37:20,834 INFO  pages.guru99.LoginPage - Clicking Login Button
+2026-06-10 21:37:20,852 INFO  pages.guru99.LoginPage - Starting Login Process
+2026-06-10 21:37:20,852 INFO  pages.guru99.LoginPage - Entering User ID
+2026-06-10 21:37:21,014 INFO  pages.guru99.LoginPage - Entering Password
+2026-06-10 21:37:21,126 INFO  pages.guru99.LoginPage - Clicking Login Button
+2026-06-10 21:37:21,206 INFO  pages.guru99.LoginPage - Login Process Completed
+2026-06-10 21:37:21,459 INFO  pages.guru99.LoginPage - Login Process Completed
+2026-06-10 21:37:22,508 INFO  pages.guru99.CustomerPage - Creating Customer
+2026-06-10 21:37:27,248 INFO  pages.guru99.LoginPage - Starting Login Process
+2026-06-10 21:37:27,248 INFO  pages.guru99.LoginPage - Entering User ID
+2026-06-10 21:37:27,410 INFO  pages.guru99.LoginPage - Entering Password
+2026-06-10 21:37:27,542 INFO  pages.guru99.LoginPage - Clicking Login Button
+2026-06-10 21:37:27,873 INFO  pages.guru99.LoginPage - Login Process Completed
+2026-06-10 21:37:27,980 INFO  pages.guru99.LoginPage - Starting Login Process
+2026-06-10 21:37:27,980 INFO  pages.guru99.LoginPage - Entering User ID
+2026-06-10 21:37:28,151 INFO  pages.guru99.LoginPage - Entering Password
+2026-06-10 21:37:28,277 INFO  pages.guru99.LoginPage - Clicking Login Button
+2026-06-10 21:37:28,598 INFO  pages.guru99.LoginPage - Login Process Completed
+2026-06-10 21:37:28,957 INFO  pages.guru99.CustomerPage - Creating Customer
+2026-06-10 21:37:30,526 INFO  pages.guru99.CustomerPage - Creating Customer
+2026-06-10 21:37:32,011 INFO  pages.guru99.AccountPage - Creating New Account
+2026-06-10 21:37:33,716 INFO  pages.guru99.AccountPage - Creating New Account
+2026-06-10 21:37:35,720 INFO  pages.guru99.AccountPage - Creating New Account
+2026-06-10 21:38:11,187 INFO  pages.guru99.LoginPage - Starting Login Process
+2026-06-10 21:38:11,190 INFO  pages.guru99.LoginPage - Entering User ID
+2026-06-10 21:38:11,441 INFO  pages.guru99.LoginPage - Entering Password
+2026-06-10 21:38:11,669 INFO  pages.guru99.LoginPage - Clicking Login Button
+2026-06-10 21:38:12,126 INFO  pages.guru99.LoginPage - Starting Login Process
+2026-06-10 21:38:12,126 INFO  pages.guru99.LoginPage - Entering User ID
+2026-06-10 21:38:12,156 INFO  pages.guru99.LoginPage - Login Process Completed
+2026-06-10 21:38:12,363 INFO  pages.guru99.LoginPage - Entering Password
+2026-06-10 21:38:12,591 INFO  pages.guru99.LoginPage - Clicking Login Button
+2026-06-10 21:38:14,715 INFO  pages.guru99.LoginPage - Login Process Completed
+2026-06-10 21:38:15,721 INFO  pages.guru99.CustomerPage - Creating Customer
+2026-06-10 21:38:17,550 INFO  pages.guru99.LoginPage - Starting Login Process
+2026-06-10 21:38:17,551 INFO  pages.guru99.LoginPage - Entering User ID
+2026-06-10 21:38:17,713 INFO  pages.guru99.LoginPage - Entering Password
+2026-06-10 21:38:17,834 INFO  pages.guru99.LoginPage - Clicking Login Button
+2026-06-10 21:38:18,233 INFO  pages.guru99.LoginPage - Login Process Completed
+2026-06-10 21:38:20,457 INFO  pages.guru99.CustomerPage - Creating Customer
+2026-06-10 21:38:23,022 INFO  pages.guru99.AccountPage - Creating New Account
+2026-06-10 21:38:24,943 INFO  pages.guru99.AccountPage - Creating New Account
+2026-06-10 21:38:28,219 INFO  pages.guru99.AccountPage - Creating New Account
+2026-06-10 21:38:40,520 INFO  pages.guru99.LoginPage - Starting Login Process
+2026-06-10 21:38:40,522 INFO  pages.guru99.LoginPage - Entering User ID
+2026-06-10 21:38:40,682 INFO  pages.guru99.LoginPage - Entering Password
+2026-06-10 21:38:40,781 INFO  pages.guru99.LoginPage - Clicking Login Button
+2026-06-10 21:38:41,115 INFO  pages.guru99.LoginPage - Login Process Completed
+2026-06-10 21:38:42,295 INFO  pages.guru99.CustomerPage - Creating Customer
+2026-06-10 21:39:12,337 INFO  pages.guru99.LoginPage - Starting Login Process
+2026-06-10 21:39:12,339 INFO  pages.guru99.LoginPage - Entering User ID
+2026-06-10 21:39:12,519 INFO  pages.guru99.LoginPage - Entering Password
+2026-06-10 21:39:12,646 INFO  pages.guru99.LoginPage - Clicking Login Button
+2026-06-10 21:39:12,995 INFO  pages.guru99.LoginPage - Login Process Completed
+2026-06-10 21:39:13,128 INFO  pages.guru99.LoginPage - Starting Login Process
+2026-06-10 21:39:13,128 INFO  pages.guru99.LoginPage - Entering User ID
+2026-06-10 21:39:13,268 INFO  pages.guru99.LoginPage - Entering Password
+2026-06-10 21:39:13,389 INFO  pages.guru99.LoginPage - Clicking Login Button
+2026-06-10 21:39:13,798 INFO  pages.guru99.LoginPage - Login Process Completed
+2026-06-10 21:39:15,292 INFO  pages.guru99.CustomerPage - Creating Customer
+2026-06-10 21:39:17,377 INFO  pages.guru99.LoginPage - Starting Login Process
+2026-06-10 21:39:17,377 INFO  pages.guru99.LoginPage - Entering User ID
+2026-06-10 21:39:17,546 INFO  pages.guru99.LoginPage - Entering Password
+2026-06-10 21:39:17,706 INFO  pages.guru99.LoginPage - Clicking Login Button
+2026-06-10 21:39:18,112 INFO  pages.guru99.LoginPage - Login Process Completed
+2026-06-10 21:39:20,035 INFO  pages.guru99.CustomerPage - Creating Customer
+2026-06-10 21:39:20,627 INFO  pages.guru99.LoginPage - Starting Login Process
+2026-06-10 21:39:20,628 INFO  pages.guru99.LoginPage - Entering User ID
+2026-06-10 21:39:20,828 INFO  pages.guru99.LoginPage - Entering Password
+2026-06-10 21:39:20,988 INFO  pages.guru99.LoginPage - Clicking Login Button
+2026-06-10 21:39:23,675 INFO  pages.guru99.LoginPage - Login Process Completed
+2026-06-10 21:39:24,386 INFO  pages.guru99.CustomerPage - Creating Customer
+2026-06-10 21:46:33,229 INFO  pages.guru99.LoginPage - Starting Login Process
+2026-06-10 21:46:33,235 INFO  pages.guru99.LoginPage - Entering User ID
+2026-06-10 21:46:33,514 INFO  pages.guru99.LoginPage - Entering Password
+2026-06-10 21:46:33,743 INFO  pages.guru99.LoginPage - Clicking Login Button
+2026-06-10 21:46:34,242 INFO  pages.guru99.LoginPage - Login Process Completed
+2026-06-10 21:46:34,443 INFO  pages.guru99.LoginPage - Starting Login Process
+2026-06-10 21:46:34,443 INFO  pages.guru99.LoginPage - Entering User ID
+2026-06-10 21:46:34,758 INFO  pages.guru99.LoginPage - Entering Password
+2026-06-10 21:46:35,157 INFO  pages.guru99.LoginPage - Clicking Login Button
+2026-06-10 21:46:35,611 INFO  pages.guru99.LoginPage - Login Process Completed
+2026-06-10 21:46:38,437 INFO  pages.guru99.CustomerPage - Creating Customer
+2026-06-10 21:46:39,457 INFO  pages.guru99.LoginPage - Starting Login Process
+2026-06-10 21:46:39,457 INFO  pages.guru99.LoginPage - Entering User ID
+2026-06-10 21:46:39,720 INFO  pages.guru99.LoginPage - Entering Password
+2026-06-10 21:46:39,924 INFO  pages.guru99.LoginPage - Clicking Login Button
+2026-06-10 21:46:40,376 INFO  pages.guru99.LoginPage - Login Process Completed
+2026-06-10 21:46:41,739 INFO  pages.guru99.CustomerPage - Creating Customer
+2026-06-10 21:46:44,873 INFO  pages.guru99.LoginPage - Starting Login Process
+2026-06-10 21:46:44,873 INFO  pages.guru99.LoginPage - Entering User ID
+2026-06-10 21:46:45,239 INFO  pages.guru99.LoginPage - Entering Password
+2026-06-10 21:46:45,460 INFO  pages.guru99.LoginPage - Clicking Login Button
+2026-06-10 21:46:45,849 INFO  pages.guru99.AccountPage - Creating New Account
+2026-06-10 21:46:45,881 INFO  pages.guru99.LoginPage - Login Process Completed
+2026-06-10 21:46:47,615 INFO  pages.guru99.CustomerPage - Creating Customer
+2026-06-10 21:46:47,947 INFO  pages.guru99.AccountPage - Creating New Account
+2026-06-10 21:46:49,926 INFO  pages.guru99.AccountPage - Creating New Account
+2026-06-10 21:46:51,868 INFO  pages.guru99.FundTransferPage - Performing Fund Transfer
+2026-06-10 21:46:53,543 INFO  pages.guru99.WithdrawalPage - Performing Withdrawal
+2026-06-10 21:46:55,219 INFO  pages.guru99.DepositPage - Performing Deposit
+2026-06-10 22:30:27,696 INFO  pages.guru99.LoginPage - Starting Login Process
+2026-06-10 22:30:27,711 INFO  pages.guru99.LoginPage - Entering User ID
+2026-06-10 22:30:28,919 INFO  pages.guru99.LoginPage - Entering Password
+2026-06-10 22:30:29,077 INFO  pages.guru99.LoginPage - Clicking Login Button
+2026-06-10 22:30:29,855 INFO  pages.guru99.LoginPage - Starting Login Process
+2026-06-10 22:30:29,855 INFO  pages.guru99.LoginPage - Entering User ID
+2026-06-10 22:30:30,037 INFO  pages.guru99.LoginPage - Login Process Completed
+2026-06-10 22:30:30,100 INFO  pages.guru99.LoginPage - Entering Password
+2026-06-10 22:30:30,437 INFO  pages.guru99.LoginPage - Clicking Login Button
+2026-06-10 22:30:30,898 INFO  pages.guru99.LoginPage - Login Process Completed
+2026-06-10 22:30:33,331 INFO  pages.guru99.CustomerPage - Creating Customer
+2026-06-10 22:30:34,570 INFO  pages.guru99.LoginPage - Starting Login Process
+2026-06-10 22:30:34,572 INFO  pages.guru99.LoginPage - Entering User ID
+2026-06-10 22:30:34,876 INFO  pages.guru99.LoginPage - Entering Password
+2026-06-10 22:30:35,116 INFO  pages.guru99.LoginPage - Clicking Login Button
+2026-06-10 22:30:35,527 INFO  pages.guru99.LoginPage - Login Process Completed
+2026-06-10 22:30:36,779 INFO  pages.guru99.CustomerPage - Creating Customer
+2026-06-10 22:30:40,430 INFO  pages.guru99.LoginPage - Starting Login Process
+2026-06-10 22:30:40,431 INFO  pages.guru99.LoginPage - Entering User ID
+2026-06-10 22:30:40,674 INFO  pages.guru99.LoginPage - Entering Password
+2026-06-10 22:30:40,888 INFO  pages.guru99.LoginPage - Clicking Login Button
+2026-06-10 22:30:41,138 INFO  pages.guru99.AccountPage - Creating New Account
+2026-06-10 22:30:41,875 INFO  pages.guru99.LoginPage - Login Process Completed
+2026-06-10 22:30:42,623 INFO  pages.guru99.CustomerPage - Creating Customer
+2026-06-10 22:30:43,909 INFO  pages.guru99.AccountPage - Creating New Account
+2026-06-10 22:30:45,966 INFO  pages.guru99.AccountPage - Creating New Account
+2026-06-10 22:30:48,387 INFO  pages.guru99.FundTransferPage - Performing Fund Transfer
+2026-06-10 22:30:50,207 INFO  pages.guru99.WithdrawalPage - Performing Withdrawal
+2026-06-10 22:30:51,877 INFO  pages.guru99.DepositPage - Performing Deposit

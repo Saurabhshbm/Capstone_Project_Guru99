@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-10T19:22:39 IST" name="BankingSuite" finished-at="2026-06-10T19:23:11 IST" duration-ms="32061">
+  <suite started-at="2026-06-10T22:30:23 IST" name="BankingSuite" finished-at="2026-06-10T22:31:00 IST" duration-ms="36409">
     <groups>
     </groups>
-    <test started-at="2026-06-10T19:22:39 IST" name="LoginTest" finished-at="2026-06-10T19:22:45 IST" duration-ms="6149">
+    <test started-at="2026-06-10T22:30:23 IST" name="LoginTest" finished-at="2026-06-10T22:30:30 IST" duration-ms="6719">
       <class name="testcases.guru99.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.guru99.LoginTest@4f49f6af]" started-at="2026-06-10T19:22:39 IST" name="setup" finished-at="2026-06-10T19:22:42 IST" duration-ms="3143" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.guru99.LoginTest@4f49f6af]" started-at="2026-06-10T22:30:23 IST" name="setup" finished-at="2026-06-10T22:30:27 IST" duration-ms="3543" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyValidLogin()[pri:0, instance:testcases.guru99.LoginTest@4f49f6af]" started-at="2026-06-10T19:22:42 IST" name="verifyValidLogin" finished-at="2026-06-10T19:22:45 IST" duration-ms="2776" status="PASS">
+        <test-method signature="verifyValidLogin()[pri:0, instance:testcases.guru99.LoginTest@4f49f6af]" started-at="2026-06-10T22:30:27 IST" name="verifyValidLogin" finished-at="2026-06-10T22:30:30 IST" duration-ms="2782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyValidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.guru99.LoginTest@4f49f6af]" started-at="2026-06-10T19:22:45 IST" name="tearDown" finished-at="2026-06-10T19:22:45 IST" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.guru99.LoginTest@4f49f6af]" started-at="2026-06-10T22:30:30 IST" name="tearDown" finished-at="2026-06-10T22:30:30 IST" duration-ms="324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.guru99.LoginTest -->
     </test> <!-- LoginTest -->
-    <test started-at="2026-06-10T19:22:39 IST" name="CustomerTest" finished-at="2026-06-10T19:22:59 IST" duration-ms="20041">
+    <test started-at="2026-06-10T22:30:23 IST" name="CustomerTest" finished-at="2026-06-10T22:30:45 IST" duration-ms="22145">
       <class name="testcases.guru99.CustomerTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.guru99.CustomerTest@15f47664]" started-at="2026-06-10T19:22:41 IST" name="setup" finished-at="2026-06-10T19:22:44 IST" duration-ms="3143" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.guru99.CustomerTest@15f47664]" started-at="2026-06-10T22:30:26 IST" name="setup" finished-at="2026-06-10T22:30:29 IST" duration-ms="3745" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCustomerCreation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.guru99.CustomerTest@15f47664]" started-at="2026-06-10T19:22:44 IST" name="verifyCustomerCreation" data-provider="customerData" finished-at="2026-06-10T19:22:49 IST" duration-ms="4901" status="PASS">
+        <test-method signature="verifyCustomerCreation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.guru99.CustomerTest@15f47664]" started-at="2026-06-10T22:30:29 IST" name="verifyCustomerCreation" data-provider="customerData" finished-at="2026-06-10T22:30:36 IST" duration-ms="6867" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,15 +68,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCustomerCreation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.guru99.CustomerTest@15f47664]" started-at="2026-06-10T19:22:49 IST" name="tearDown" finished-at="2026-06-10T19:22:49 IST" duration-ms="193" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.guru99.CustomerTest@15f47664]" started-at="2026-06-10T22:30:36 IST" name="tearDown" finished-at="2026-06-10T22:30:36 IST" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.guru99.CustomerTest@15f47664]" started-at="2026-06-10T19:22:49 IST" name="setup" finished-at="2026-06-10T19:22:52 IST" duration-ms="3072" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.guru99.CustomerTest@15f47664]" started-at="2026-06-10T22:30:36 IST" name="setup" finished-at="2026-06-10T22:30:40 IST" duration-ms="3476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCustomerCreation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.guru99.CustomerTest@15f47664]" started-at="2026-06-10T19:22:52 IST" name="verifyCustomerCreation" data-provider="customerData" finished-at="2026-06-10T19:22:59 IST" duration-ms="6239" status="PASS">
+        <test-method signature="verifyCustomerCreation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.guru99.CustomerTest@15f47664]" started-at="2026-06-10T22:30:40 IST" name="verifyCustomerCreation" data-provider="customerData" finished-at="2026-06-10T22:30:45 IST" duration-ms="5189" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,23 +117,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCustomerCreation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.guru99.CustomerTest@15f47664]" started-at="2026-06-10T19:22:59 IST" name="tearDown" finished-at="2026-06-10T19:22:59 IST" duration-ms="194" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.guru99.CustomerTest@15f47664]" started-at="2026-06-10T22:30:45 IST" name="tearDown" finished-at="2026-06-10T22:30:45 IST" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.guru99.CustomerTest -->
     </test> <!-- CustomerTest -->
-    <test started-at="2026-06-10T19:22:46 IST" name="BankingWorkflowTest" finished-at="2026-06-10T19:23:11 IST" duration-ms="25406">
+    <test started-at="2026-06-10T22:30:31 IST" name="BankingWorkflowTest" finished-at="2026-06-10T22:31:00 IST" duration-ms="28954">
       <class name="testcases.guru99.BankingWorkflowTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.guru99.BankingWorkflowTest@4bc222e]" started-at="2026-06-10T19:22:46 IST" name="setup" finished-at="2026-06-10T19:22:49 IST" duration-ms="3126" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.guru99.BankingWorkflowTest@4bc222e]" started-at="2026-06-10T22:30:31 IST" name="setup" finished-at="2026-06-10T22:30:34 IST" duration-ms="3318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="completeBankingWorkflow()[pri:0, instance:testcases.guru99.BankingWorkflowTest@4bc222e]" started-at="2026-06-10T19:22:49 IST" name="completeBankingWorkflow" finished-at="2026-06-10T19:23:11 IST" duration-ms="21949" status="PASS">
+        <test-method signature="completeBankingWorkflow()[pri:0, instance:testcases.guru99.BankingWorkflowTest@4bc222e]" started-at="2026-06-10T22:30:34 IST" name="completeBankingWorkflow" finished-at="2026-06-10T22:30:58 IST" duration-ms="23767" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- completeBankingWorkflow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.guru99.BankingWorkflowTest@4bc222e]" started-at="2026-06-10T19:23:11 IST" name="tearDown" finished-at="2026-06-10T19:23:11 IST" duration-ms="317" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.guru99.BankingWorkflowTest@4bc222e]" started-at="2026-06-10T22:30:58 IST" name="tearDown" finished-at="2026-06-10T22:31:00 IST" duration-ms="1856" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
