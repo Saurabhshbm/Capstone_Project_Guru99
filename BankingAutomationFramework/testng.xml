@@ -2,13 +2,13 @@
 
 <suite name="BankingSuite"
        parallel="tests"
-       thread-count="1">
+       thread-count="3">
 
     <listeners>
         <listener class-name="listeners.TestListener"/>
     </listeners>
 
-   <!--  <test name="LoginTest">
+     <test name="LoginTest">
 
         <classes>
             <class name="testcases.guru99.LoginTest"/>
@@ -22,12 +22,20 @@
             <class name="testcases.guru99.CustomerTest"/>
         </classes>
 
-    </test> -->
+    </test> 
 
     <test name="BankingWorkflowTest">
 
         <classes>
             <class name="testcases.guru99.BankingWorkflowTest"/>
+        </classes>
+
+    </test>
+    
+    <test name="AccountTest">
+
+        <classes>
+            <class name="testcases.guru99.AccountTest"/>
         </classes>
 
     </test>

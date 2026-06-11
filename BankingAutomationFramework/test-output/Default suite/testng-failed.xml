@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.guru99.BankingWorkflowTest">
+      <class name="testcases.guru99.LoginTest">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="completeBankingWorkflow"/>
+          <include name="verifyInvalidLogin"/>
         </methods>
-      </class> <!-- testcases.guru99.BankingWorkflowTest -->
+      </class> <!-- testcases.guru99.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
