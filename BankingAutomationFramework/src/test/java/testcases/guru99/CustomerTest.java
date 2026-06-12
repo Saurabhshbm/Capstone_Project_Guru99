@@ -11,7 +11,7 @@ import pages.guru99.LoginPage;
 import utilities.ConfigReader;
 import utilities.ExcelUtils;
 import utilities.RandomDataGenerator;
-import utilities.TestContext;
+import utilities.TextContext;
 import utilities.TestDataProvider;
 
 public class CustomerTest extends BaseTest {

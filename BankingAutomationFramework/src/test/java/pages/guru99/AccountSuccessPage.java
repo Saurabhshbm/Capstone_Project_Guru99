@@ -3,7 +3,7 @@ package pages.guru99;
 import base.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import utilities.TestContext;
+import utilities.TextContext;
 
 public class AccountSuccessPage extends BasePage {
 
@@ -19,7 +19,7 @@ public class AccountSuccessPage extends BasePage {
                                 "//td[text()='Account ID']/following-sibling::td"))
                         .getText();
 
-        TestContext.setAccountId(accountId);
+        TextContext.setAccountId(accountId);
 
         return accountId;
     }

@@ -1,6 +1,6 @@
 package utilities;
 
-public class TestContext {
+public class TextContext {
 
     private static ThreadLocal<String> customerId =
             new ThreadLocal<>();

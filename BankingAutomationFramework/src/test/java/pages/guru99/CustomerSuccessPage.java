@@ -3,7 +3,7 @@ package pages.guru99;
 import base.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import utilities.TestContext;
+import utilities.TextContext;
 import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -35,7 +35,7 @@ public class CustomerSuccessPage extends BasePage {
             "Retrieved Customer ID = "
             + customerId);
 
-        TestContext.setCustomerId(customerId);
+        TextContext.setCustomerId(customerId);
 
         return customerId;
     }

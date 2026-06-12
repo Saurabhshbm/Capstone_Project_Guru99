@@ -246,12 +246,5 @@ public class BankingWorkflowTest extends BaseTest {
                     "Logout Alert Not Found");
         }
 
-        
-        
-
-        
-
-        
-        
     }
 }

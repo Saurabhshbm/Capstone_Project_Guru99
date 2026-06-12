@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import pages.guru99.*;
 import utilities.ConfigReader;
 import utilities.RandomDataGenerator;
-import utilities.TestContext;
+import utilities.TextContext;
 
 public class AccountTest extends BaseTest {
 
@@ -52,7 +52,7 @@ public class AccountTest extends BaseTest {
         
         System.out.println(
         	    "Customer ID From Context = "
-        	    + TestContext.getCustomerId());
+        	    + TextContext.getCustomerId());
 
         homePage =
                 new HomePage(
@@ -85,6 +85,6 @@ public class AccountTest extends BaseTest {
 
         System.out.println(
                 "Stored Account ID : "
-                        + TestContext.getAccountId());
+                        + TextContext.getAccountId());
     }
 }
